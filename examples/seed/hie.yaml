@@ -1,8 +1,0 @@
-cradle:
-  stack:
-    - path: "./src/Main.hs"
-      component: "mu-example-seed:exe:seed-server"
-    - path: "./src/Lens.hs"
-      component: "mu-example-seed:exe:seed-server-lens"
-    - path: "./src/Optics.hs"
-      component: "mu-example-seed:exe:seed-server-optics"

@@ -2,25 +2,11 @@ allow-newer: base, network, ghc-prim, template-haskell, proto3-wire, http2
 
 preferences: base16-bytestring < 1
 
-packages: adapter/avro/
-          adapter/kafka/
-          adapter/persistent/
-          adapter/protobuf/
-          compendium-client/
-          core/lens/
+packages: core/lens/
           core/optics/
           core/rpc/
           core/schema/
-          examples/health-check/
-          examples/library/backend
-          examples/route-guide/
-          examples/seed/
-          examples/todolist/
-          examples/with-persistent/
           graphql/
-          grpc/client/
-          grpc/common/
-          grpc/server/
           instrumentation/prometheus/
           instrumentation/tracing/
           servant/server/

@@ -1,6 +1,0 @@
-cradle:
-  stack:
-    - path: "./src"
-      component: "mu-protobuf:lib"
-    - path: "./test"
-      component: "mu-protobuf:exe:test-protobuf"

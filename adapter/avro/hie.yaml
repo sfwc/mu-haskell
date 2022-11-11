@@ -1,6 +1,0 @@
-cradle:
-  stack:
-    - path: "./src"
-      component: "mu-avro:lib"
-    - path: "./test"
-      component: "mu-avro:exe:test-avro"
